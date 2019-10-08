@@ -1,0 +1,14 @@
+name: GTAbounty
+main: me.atomiz.gtab.Main
+version: 1.0
+author: Atomiz
+api-version: 1.12
+description: add GTA-Features to Minecraft
+commands:
+   gtab:
+      description: The base GTAbounty command.
+      permission: gtab.use
+permissions:
+   gtab.use:
+      description: Gives access to all GTAb commands
+      default: op

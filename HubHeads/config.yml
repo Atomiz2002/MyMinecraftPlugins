@@ -1,0 +1,29 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#                                                                       #
+#                                                                       #
+#         #   #  #    #  ####      #   #  #####   ###   ####   #####    #
+#        #   #  #    #  #   #     #   #  #      #   #  #   #  #         #
+#       #####  #    #  ####      #####  ####   #####  #   #  #####      #
+#      #   #  #    #  #   #     #   #  #      #   #  #   #      #       #
+#     #   #    ###   ####      #   #  #####  #   #  ####   #####        #
+#                      ________________________________                 #
+#                               * By Atomiz *                           #
+#                                                                       #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#
+# hub: The hub world name
+#
+# time: The server ticks time to start hub heads at
+# 
+# delay: The delay between the head spawns in ticks (currently 1 minute)
+# 
+# radius_xyz: The radius around the spawnpoint in which to spawn heads
+# 
+hub: hub
+time: 6000
+lendth: 1200
+radius_x: 10
+radius_y: 2
+radius_z: 10
+max_heads: 10
+goal: 10

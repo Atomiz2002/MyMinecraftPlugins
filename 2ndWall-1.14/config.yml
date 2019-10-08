@@ -1,0 +1,74 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#                                                                             #
+#        #####  #####   ###   #####  #####     #   #   ###   ####   #####     #
+#       #        #    #   #  #      #         ## ##  #   #  #   #  #          #
+#      #####    #    #####  ####   ####      # # #  #   #  #   #  ####        #
+#         #    #    #   #  #      #         #   #  #   #  #   #  #            #
+#    #####    #    #   #  #      #         #   #   ###   ####   #####         #
+#                      ________________________________                       #
+#                               * By Atomiz *                                 #
+#                                                                             #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# 
+# %player% - the specified player
+# %group% - the specified group/rank (often replaced by the 'ranks' section)
+# 
+# AddRanks:
+# The command used to assign the ranks to the player when they recieve ranks (on Login and Add commands)
+# 
+# RemoveRanks:
+# The command used to assign the ranks to the player when they lose ranks (on Remove command)
+# 
+# CreateMissingRanks:
+# Whether or not to create all ranks under the 'ranks' section
+# 
+# CreateMissingRanksCommand:
+# If 'CreateMissingRanks' is true, this command will be executed for each group/rank
+# 
+# OnJoinCommand:
+# The command to be executed whenever a player, holding any of the 'ranks.staff' ranks, joins
+# 
+# OnIrregularJoin:
+# The command to be executed whenever a player, that isn't registered under the 'staff' section, but holds any of the 'ranks.staff' ranks, joins
+# If the command has %group%, then it will be replaced with the staff groups the player has
+# - lp user %player% parent remove %group%
+# 
+# OnLeaveCommand:
+# The command to be executed whenever a player, holding any of the 'ranks.staff' ranks, leaves
+# 
+# ranks:
+# Ranks/Groups to test for
+# staff - the plugin looks for them to determine whether or not to run 'OnJoinCommand'
+# regular - will be added back to the player once they login
+# 
+# staff:
+# Stores the data about the registered players
+# 
+# unregistered:
+# Holds the players that joined with any 'ranks.staff' ranks but aren't registered
+# 
+AddRanks: lp user %player% parent add %group%
+RemoveRanks: lp user %player% parent remove %group%
+CreateMissingRanks: false
+CreateMissingRanksCommand: lp creategroup %group%
+OnJoinCommand: lp user %player% parent set default
+OnIrregularJoin: lp user %player% parent set default
+OnLeaveCommand: lp user %player% parent set default
+ranks:
+   staff:
+   - staff
+   - admin
+   - helper
+   - builder
+   regular:
+   - legendary
+   - mythic
+   - platinum
+   - premium
+   - vip+
+   - vip
+   - member
+   - default
+staff: {}
+unregistered:
+  users: {}

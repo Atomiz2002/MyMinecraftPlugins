@@ -1,0 +1,11 @@
+name: 2ndWall
+version: 1.0
+description: Provides 2ndWall of security
+author: Atomiz
+main: me.atomiz.secondwall.Main
+api-version: 1.14
+commands:
+   staffmode:
+      description: Staffmode related commands
+      aliases:
+      - sm

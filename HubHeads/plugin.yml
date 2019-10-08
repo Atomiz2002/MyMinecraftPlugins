@@ -1,0 +1,11 @@
+name: HubHeads
+version: 1.0
+description: Spawns random heads around a world
+author: Atomiz
+main: me.atomiz.plugin.Main
+api-version: 1.13
+commands:
+   hubheads:
+      description: HubHeads related commands
+      aliases:
+      - hh

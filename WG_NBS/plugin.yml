@@ -4,7 +4,7 @@ description: Allows you to play music in the different regions.
 version: 1.0
 api-version: 1.14
 authors: [ Atomiz ]
-depend: [ WorldGuard ]
+depend: [ WorldGuard , NoteBlockAPI ]
 softdepend: [ WorldEdit ]
 website: http://atomix.000webhostapp.com/
 commands:
