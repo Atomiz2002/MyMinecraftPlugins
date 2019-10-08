@@ -1,0 +1,17 @@
+name: WG_NBS
+main: me.atomiz.wg_nbs.Main
+description: Allows you to play music in the different regions.
+version: 1.0
+api-version: 1.14
+authors: [ Atomiz ]
+depend: [ WorldGuard ]
+softdepend: [ WorldEdit ]
+website: http://atomix.000webhostapp.com/
+commands:
+   wgnbs:
+      description: The base WG NBS command.
+      permission: wgnbs.use
+permissions:
+   wgnbs.use:
+      description: Gives access to all WG NBS commands
+      default: op

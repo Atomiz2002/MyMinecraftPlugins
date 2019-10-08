@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="D:/SAHAK/Games/- Minecraft Servers/- Plugins/- Build tools - 1.14.4/spigot-1.14.4.jar"/>
+	<classpathentry kind="lib" path="D:/SAHAK/Games/- Minecraft Servers/- Plugins/worldguard-bukkit-7.0.1-SNAPSHOT-dist.jar" sourcepath="D:/SAHAK/Games/- Minecraft Servers/- Plugins/WorldGuard-master/worldguard-core/WG_docs.zip">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/D:/SAHAK/Games/-%20Minecraft%20Servers/-%20Plugins/WorldGuard-master/worldguard-core/src/main/java/com.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/SAHAK/Games/- Minecraft Servers/- Plugins/worldedit-bukkit-7.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/SAHAK/Games/- Minecraft Servers/- Plugins/NoteBlockAPI-1.4.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
