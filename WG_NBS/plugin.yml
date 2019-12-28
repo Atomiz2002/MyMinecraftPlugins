@@ -9,7 +9,8 @@ softdepend: [ WorldEdit ]
 website: http://atomix.000webhostapp.com/
 commands:
    wgnbs:
-      description: The base WG NBS command.
+      description: The main WG NBS command
+      usage: /wgnbs help
       permission: wgnbs.use
 permissions:
    wgnbs.use:
