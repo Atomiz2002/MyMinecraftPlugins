@@ -1,0 +1,22 @@
+name: HubHeads
+version: 1.0
+description: Spawns randomly heads around a location
+authors:
+- Atomiz
+- (Contributor) Fefo6644
+main: me.atomiz.hubheads.Main
+api-version: 1.13
+softdepend:
+- Citizens
+- ProtocolLib
+- HolographicDisplays
+- PacketWrapper
+commands:
+  hubheads:
+    description: HubHeads related commands
+    aliases:
+    - hh
+permissions:
+  hubheads.use:
+    description: Gives access to all HubHeads commands
+    default: op
